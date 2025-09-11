@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiao & Cha</title>
+    <title>Tiao & Saki</title>
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <style>
         /* Base Styles */
@@ -230,13 +230,13 @@
     <!-- Main Container -->
     <div class="container">
         <div class="festive-border"></div>
-        <h1>🎄 条条 & 茶茶 🎄</h1>
+        <h1>🎄 条条 & Saki 🎄</h1>
         <div class="kuromi" id="kuromi"></div>
         <button class="gift-button" onclick="makeItRain(event)">连续点击这里下礼物雨! 🎁</button>
 		</br>
 		<button class="gift-button" onclick="sendEmailToTiaotiao()">向条条发送思念! 💝</button>
 				</br>
-		<button class="gift-button" onclick="sendEmailToChacha()">向茶茶发送思念! 💝</button>
+		<button class="gift-button" onclick="sendEmailToChacha()">向Saki发送思念! 💝</button>
     </div>
 
     <!-- Counters -->
@@ -406,10 +406,10 @@
 
     function sendEmailToTiaotiao() {
       const params = {
-        from_name: "茶茶",
+        from_name: "Saki",
         to_email: "895945745@qq.com",
-        message: "茶茶现在正在想你呢，快去找她聊天吧！",
-		subject: "茶茶对你发送了一份思念"
+        message: "Saki现在正在想你呢，快去找她聊天吧！",
+		subject: "Saki对你发送了一份思念"
       };
 
       emailjs.send("Gmail", "template_4czvmwn", params)
@@ -425,7 +425,7 @@
 	function sendEmailToChacha() {
       const params = {
         from_name: "条条",
-        to_email: "1416726134@qq.com",
+        to_email: "895945745@qq.com",
         message: "条条现在正在想你呢，快去找他聊天吧！",
 		subject: "条条对你发送了一份思念"
       };
@@ -443,6 +443,7 @@
 </body>
 
 </html>
+
 
 
 
